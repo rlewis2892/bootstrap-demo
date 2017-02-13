@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -75,67 +75,44 @@
 
 			<main>
 				<div class="container">
-					<!-- row 1-->
-					<div class="row">
-						<div class="col-xs-12">
-							<h1>Hai! I'm a Bootstrap Page! :D</h1>
-						</div>
-					</div>
-
-					<!-- row 2 -->
-					<div class="row">
-						<div class="col-md-4">
-							<div class="fancy-box">
-								Column 4/12
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="fancy-box">
-								Column 4/12
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="fancy-box">
-								Column 4/12
-							</div>
-						</div>
-					</div>
-
-					<!-- row 3 -->
+					<h2>Bootstrap Form Demo</h2>
 					<div class="row">
 						<div class="col-md-6">
-							<div class="fancy-box">
-								Column 6/12
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="fancy-box">
-								Column 6/12
-							</div>
-						</div>
-					</div>
+							<form id="contact-form" action="" method="post">
+								<div class="form-group">
+									<label for="contact-name">Name</label>
+									<input class="form-control" type="text" id="contact-name" name="contact-name" placeholder="name">
+								</div>
 
-					<!-- row 4 -->
-					<div class="row">
-						<div class="col-md-3">
-							<div class="fillmurray">
-								Column 3/12
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="fillmurray">
-								Column 3/12
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="fillmurray">
-								Column 3/12
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="fillmurray">
-								Column 3/12
-							</div>
+								<div class="form-group">
+									<label for="contact-email">Email</label>
+									<input class="form-control" type="email" id="contact-email" name="contact-email" placeholder="email">
+								</div>
+
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" id="contact-chk1" name="contact-chk1">Checkbox 1
+									</label>
+								</div>
+
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" id="contact-chk2" name="contact-chk2">Checkbox 2
+									</label>
+								</div>
+
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" id="contact-chk3" name="contact-chk3">Checkbox 3
+									</label>
+								</div>
+
+								<div class="form-group">
+									<textarea class="form-control" name="contact-textarea" id="contact-textarea" cols="30" rows="10" placeholder="Tell us how you really feel..."></textarea>
+								</div>
+
+								<button class="btn btn-info">Send!</button>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -154,5 +131,6 @@
 				</div>
 			</div>
 		</footer>
+
 	</body>
 </html>
