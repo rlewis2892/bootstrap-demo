@@ -58,6 +58,24 @@
 				</div>
 			</div>
 
+			<!-- row 3 -->
+			<div class="row">
+				<div class="col-md-6">
+					Column 6/12
+				</div>
+				<div class="col-md-6">
+					Column 6/12
+				</div>
+			</div>
+
+			<!-- row 4 -->
+			<div class="row">
+				<div class="col-md-3">Column 3/12</div>
+				<div class="col-md-3">Column 3/12</div>
+				<div class="col-md-3">Column 3/12</div>
+				<div class="col-md-3">Column 3/12</div>
+			</div>
+
 		</div>
 	</body>
 </html>
