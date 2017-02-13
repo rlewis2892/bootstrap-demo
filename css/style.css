@@ -15,6 +15,8 @@
 .fillmurray {
 	background: url("http://www.fillmurray.com/g/400/400") no-repeat center;
 	min-height: 200px;
+	background-size: cover;
+	margin-bottom: 2rem;
 }
 
 /***
