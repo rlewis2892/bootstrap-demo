@@ -35,84 +35,86 @@
 
 		<title>Bootstrap Demo</title>
 	</head>
-	<body>
-		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12">
-						<h1>This is the Bootstrap Demo</h1>
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<header>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<h1>This is the Bootstrap Demo</h1>
+						</div>
 					</div>
 				</div>
-			</div>
-		</header>
+			</header>
 
-		<main>
-			<div class="container">
-				<!-- row 1-->
-				<div class="row">
-					<div class="col-xs-12">
-						<h1>Hai! I'm a Bootstrap Page! :D</h1>
+			<main>
+				<div class="container">
+					<!-- row 1-->
+					<div class="row">
+						<div class="col-xs-12">
+							<h1>Hai! I'm a Bootstrap Page! :D</h1>
+						</div>
 					</div>
-				</div>
 
-				<!-- row 2 -->
-				<div class="row">
-					<div class="col-md-4">
-						<div class="fancy-box">
-							Column 4/12
+					<!-- row 2 -->
+					<div class="row">
+						<div class="col-md-4">
+							<div class="fancy-box">
+								Column 4/12
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="fancy-box">
+								Column 4/12
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="fancy-box">
+								Column 4/12
+							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="fancy-box">
-							Column 4/12
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="fancy-box">
-							Column 4/12
-						</div>
-					</div>
-				</div>
 
-				<!-- row 3 -->
-				<div class="row">
-					<div class="col-md-6">
-						<div class="fancy-box">
-							Column 6/12
+					<!-- row 3 -->
+					<div class="row">
+						<div class="col-md-6">
+							<div class="fancy-box">
+								Column 6/12
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fancy-box">
+								Column 6/12
+							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="fancy-box">
-							Column 6/12
-						</div>
-					</div>
-				</div>
 
-				<!-- row 4 -->
-				<div class="row">
-					<div class="col-md-3">
-						<div class="fillmurray">
-							Column 3/12
+					<!-- row 4 -->
+					<div class="row">
+						<div class="col-md-3">
+							<div class="fillmurray">
+								Column 3/12
+							</div>
 						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="fillmurray">
-							Column 3/12
+						<div class="col-md-3">
+							<div class="fillmurray">
+								Column 3/12
+							</div>
 						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="fillmurray">
-							Column 3/12
+						<div class="col-md-3">
+							<div class="fillmurray">
+								Column 3/12
+							</div>
 						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="fillmurray">
-							Column 3/12
+						<div class="col-md-3">
+							<div class="fillmurray">
+								Column 3/12
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</main>
+			</main>
+		</div>
 
 		<footer>
 			<div class="container">
