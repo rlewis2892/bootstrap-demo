@@ -55,6 +55,7 @@
 						<div class="collapse navbar-collapse" id="main-menu">
 							<ul class="nav navbar-nav navbar-right">
 								<li><a href="#">Home</a></li>
+								<li><a href="#bill">Bill Murray</a></li>
 								<li><a href="form.php">Form Demo</a></li>
 								<li><a href="https://bootcamp-coders.cnm.edu/~rlewis37" target="_blank">rlewis37</a></li>
 								<li class="dropdown">
@@ -117,6 +118,7 @@
 
 					<!-- row 4 -->
 					<div class="row">
+						<a name="bill"></a>
 						<div class="col-md-3">
 							<div class="fillmurray">
 								Column 3/12
