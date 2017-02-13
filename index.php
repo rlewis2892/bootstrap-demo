@@ -36,46 +36,95 @@
 		<title>Bootstrap Demo</title>
 	</head>
 	<body>
-		<div class="container">
-
-			<!-- row 1-->
-			<div class="row">
-				<div class="col-xs-12">
-					<h1>Hai! I'm a Bootstrap Page! :D</h1>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>This is the Bootstrap Demo</h1>
+					</div>
 				</div>
 			</div>
+		</header>
 
-			<!-- row 2 -->
-			<div class="row">
-				<div class="col-md-4">
-					Column 4/12
+		<main>
+			<div class="container">
+				<!-- row 1-->
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>Hai! I'm a Bootstrap Page! :D</h1>
+					</div>
 				</div>
-				<div class="col-md-4">
-					Column 4/12
+
+				<!-- row 2 -->
+				<div class="row">
+					<div class="col-md-4">
+						<div class="fancy-box">
+							Column 4/12
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fancy-box">
+							Column 4/12
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="fancy-box">
+							Column 4/12
+						</div>
+					</div>
 				</div>
-				<div class="col-md-4">
-					Column 4/12
+
+				<!-- row 3 -->
+				<div class="row">
+					<div class="col-md-6">
+						<div class="fancy-box">
+							Column 6/12
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fancy-box">
+							Column 6/12
+						</div>
+					</div>
+				</div>
+
+				<!-- row 4 -->
+				<div class="row">
+					<div class="col-md-3">
+						<div class="fillmurray">
+							Column 3/12
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="fillmurray">
+							Column 3/12
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="fillmurray">
+							Column 3/12
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="fillmurray">
+							Column 3/12
+						</div>
+					</div>
 				</div>
 			</div>
+		</main>
 
-			<!-- row 3 -->
-			<div class="row">
-				<div class="col-md-6">
-					Column 6/12
-				</div>
-				<div class="col-md-6">
-					Column 6/12
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						=^. .^= Meow!
+					</div>
+					<div class="col-md-6">
+						&copy; 2017 Senator Arlo Productions
+					</div>
 				</div>
 			</div>
-
-			<!-- row 4 -->
-			<div class="row">
-				<div class="col-md-3">Column 3/12</div>
-				<div class="col-md-3">Column 3/12</div>
-				<div class="col-md-3">Column 3/12</div>
-				<div class="col-md-3">Column 3/12</div>
-			</div>
-
-		</div>
+		</footer>
 	</body>
 </html>
